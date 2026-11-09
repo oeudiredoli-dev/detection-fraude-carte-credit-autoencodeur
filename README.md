@@ -1,4 +1,4 @@
-#Détection de fraude par carte de crédit avec un auto-encodeur
+# DÉTECTION DE FRAUDE PAR CARTE DE CRÉDIT AVEC UN AUTO-ENCODEUR
 
 Projet d'apprentissage profond (PyTorch) : repérer les transactions frauduleuses sans jamais voir de fraude pendant l'entraînement, grâce à un auto-encodeur et à la détection d'anomalies.
 
