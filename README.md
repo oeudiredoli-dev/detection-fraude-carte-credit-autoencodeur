@@ -12,7 +12,7 @@ Un auto-encodeur apprend à compresser puis à reconstruire une transaction. Ent
 - Variables binaires : `repeat_retailer`, `used_chip`, `used_pin_number`, `online_order`.
 
 Le fichier `credit_card_data.csv` (73 Mo) n'est pas dans le dépôt, il est trop lourd pour GitHub.
-Source du jeu de données : **[AJOUTE LE LIEN ICI]**. Place le fichier dans le même dossier que le notebook.
+Source du jeu de données : **[https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud]**. Place le fichier dans le même dossier que le notebook.
 
 ## Méthode
 1. **Découpage** : les transactions normales sont réparties en 80 % entraînement, 10 % validation, 10 % test. Le modèle s'entraîne sur 730 077 transactions normales et 0 fraude. La validation et le test reçoivent aussi des fraudes (8 740 chacun) en gardant le taux de fraude d'origine.
